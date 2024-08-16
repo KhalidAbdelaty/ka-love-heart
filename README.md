@@ -60,3 +60,8 @@ animate_arrow()
 ## ✨ **Contributing**
 
 If you have any ideas or improvements, feel free to open a pull request. Let’s make this project even more stunning together! 🌟
+
+## 📜 **License**
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/KhalidAbdelaty/ka-love-heart/blob/main/LICENSE) file for more details.
+
