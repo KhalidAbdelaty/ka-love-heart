@@ -29,29 +29,28 @@ def draw_creative_heart():
 
 def draw_arrow_and_text():
     penup()
-    goto(-420, 130)  # Start point of the arrow
+    goto(-420, 130)
     pendown()
     color("white")
     pensize(4)
-    setheading(-15)  # Set the angle to match the original image
-    forward(850)  # Length of the arrow
-    # Adding arrowhead
-    setheading(-15)  # Continue the same angle for the arrowhead
-    forward(20)  # Length of the arrowhead
-    backward(20)  # Move back to the end of the arrow line
-    left(150)  # Create the left side of the arrowhead
+    setheading(-15) 
+    forward(850)  
+    setheading(-15)  
+    forward(20)  
+    backward(20)  
+    left(150)  
     forward(20)
-    backward(20)  # Reset position for the next movement
-    right(300)  # Create the right side of the arrowhead
+    backward(20)  
+    right(300)  
     forward(20)
     penup()
 
-    goto(-480, 160)  # Position for 'K' (lowered slightly)
+    goto(-480, 160)  
     pencolor("white")
-    style = ('Comic Sans MS', 64, 'italic')  # Hand-drawn style font
+    style = ('Comic Sans MS', 64, 'italic')  
     write("K", align="center", font=style)
 
-    goto(470, 0)  # Position for 'A' (lowered slightly)
+    goto(470, 0) 
     write("A", align="center", font=style)
 
 def add_copyright():
